@@ -1,0 +1,187 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.background_color{
+ background-color: #242424;
+  }
+
+.klanz{
+    
+        position: absolute;
+        top: 10%;
+        left: 12%;
+        transform: translate(-50%, -50%);
+ }
+
+
+.profile{
+    position: absolute;
+        top: 55%;
+        right: -20%;
+        transform: translate(-50%, -50%);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  
+  color: white;
+  padding: 15px 0;
+  display: flex;
+}
+
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-bar{
+  align-items: center;
+  justify-content: space-between;
+  align-self: center;
+  display: flex
+
+  
+;
+
+}
+
+.nav-bar nav ul {
+
+  list-style: none;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+nav ul li {
+  margin: 0 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: POPPINS;
+  font-weight: 700;
+
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.cta-button {
+  background: #00ffff;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: poppins;
+  font-weight: 700;
+  
+  
+  
+}
+
+ .contact{
+  position: absolute;
+  right: 10%;
+  top: 7%;
+}
+
+.hello{
+  top: 181px;
+  font-family: poppins;
+  font-weight: 500;
+  color: aliceblue;
+  position: absolute;
+  left: 124.5px;
+  font-size: 150%;
+
+}
+
+.name{
+  top: 189px;
+  font-family: poppins;
+  font-weight: 600;
+  color: aliceblue;
+  position: absolute;
+  left: 123.5px;
+  font-size: 308%;
+}
+
+.role{
+  top: 279px;
+  font-family: poppins;
+  font-weight: 500;
+  color: aliceblue;
+  position: absolute;
+  left: 126.5px;
+  font-size: 179%;
+}
+
+.description{
+  color: aliceblue;
+  font-family: poppins;
+  font-size: 12px;
+  position: absolute;
+  left: 126.5px;
+  top: 344px;
+}
+
+.link{
+  position: absolute;
+  left: 126.5px;
+  top: 450px;
+}
+
+.yt{
+  position: absolute;
+  left: 166.5px;
+  top: 446px;
+}
+
+
+.fb{
+  position: absolute;
+  left: 214.5px;
+  top: 450px;
+}
+
+.insta{
+  position: absolute;
+  left: 258.5px;
+  top: 450px;
+}
+
+/* 
+.dawnloadcv{
+  position: fixed;
+  top: 530px;
+  right: 1163px;
+} */
+
+.downloadcta-button {
+  background: #00ffff;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: poppins;
+  font-weight: 700;
+  position: absolute;
+  top: 74%;
+  left: 8%;
+}
+
+
